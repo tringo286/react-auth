@@ -87,9 +87,8 @@ const Login = () => {
                 </form>
                 <p>
                     Need an Account?<br />
-                    <span className="line">
-                        {/*put router link here*/}
-                        <a href="#">Sign Up</a>
+                    <span className="line">                         
+                        <Link to='/register'>Register</Link>
                     </span>
                 </p>
             </section>
